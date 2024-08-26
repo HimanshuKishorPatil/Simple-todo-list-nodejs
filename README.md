@@ -1,32 +1,55 @@
 Hey, hi himanshu is here
-please read and follow steps given by me to create bug free app
 
-# Simple To-Do List Application 
+Welcome to your To-DO List app 👋
+
 
 ## Overview
 This is a simple RESTful API for a To-Do list application built with Node.js, Express, and MongoDB.
 
+-------------------------------------getting started-------------------------------------------------------------------
 ## Prerequisites
-- Node.js
-- MongoDB
+documentation links are provided to dawnload and install the requirements
+1) Node.js 
+   Dawnload and install: https://nodejs.org/en/download/package-manager 
+
+2) Express server
+   Reffer the document : https://expressjs.com/en/starter/installing.html
+
+3) MongoDB
+   Dawnload and install: https://nodejs.org/en/download/package-manager 
+
+4) VS code or any other code editor:
+   Dawnload and install: https://code.visualstudio.com/Download
+   *or you can use any IDE like AndroidStudio, Eclipse etc.
 
 ## Installation
 
+
 1. Clone the repository
 
-2. Navigate to the project directory
+2. Navigate to the project directory 
 
-3. Install dependencies
+3. Install dependencies through terminal cmd:
+   
+   yarn init -y 
+   yarn add express mongoose dotenv
+   yarn add --dev nodemon
+  
+4. create mongodb collection
+   `todolistData.mongodb` file contains the Queries to create collection
 
-4. Set up environment variables
+5. Set up environment variables
 - Create a `.env` file in the root directory.
 - Add the following:
   ```
-  MONGODB_URI=mongodb://localhost:27017/todo-list
-  PORT=3000
+  MONGODB_URI="mongodb://localhost:27017/todo-list"
+  PORT="3000"
   ```
 
-5. Start the server
+6. Start the server
+ - locate the terminal to '../TODO-LIST-APP/"
+ - run "npm start"
+ - Now you can build attractive front end for this using frontend frameworks...
 
 ## API Endpoints
 
@@ -40,6 +63,6 @@ This is a simple RESTful API for a To-Do list application built with Node.js, Ex
 ## Error Handling
 Proper error handling is implemented in the middleware `errorHandler.js`.
 
-## License
-This project is licensed under the MIT License.
-
+## Testing application
+You can use POSTMAN application for testing the different api calls CRUD
+here is the documentation to install : https://www.postman.com/downloads/

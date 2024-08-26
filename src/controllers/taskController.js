@@ -1,6 +1,11 @@
+// business logic
+
+
+
 const Task = require('../models/taskModel');
 
-// Get all tasks
+
+// Get all tasks list
 exports.getAllTasks = async (req, res, next) => {
   try {
     const tasks = await Task.find();
