@@ -30,11 +30,11 @@ documentation links are provided to dawnload and install the requirements
 2. Navigate to the project directory 
 
 3. Install dependencies through terminal cmd:
-   
+   ```
    yarn init -y 
    yarn add express mongoose dotenv
    yarn add --dev nodemon
-  
+  ```
 4. create mongodb collection
    `todolistData.mongodb` file contains the Queries to create collection
 
@@ -48,7 +48,7 @@ documentation links are provided to dawnload and install the requirements
 
 6. Start the server
  - locate the terminal to '../TODO-LIST-APP/"
- - run "npm start"
+ - run ```npm start```
  - Now you can build attractive front end for this using frontend frameworks...
 
 ## API Endpoints
