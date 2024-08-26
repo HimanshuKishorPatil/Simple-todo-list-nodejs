@@ -9,19 +9,19 @@ This is a simple RESTful API for a To-Do list application built with Node.js, Ex
 -------------------------------------getting started-------------------------------------------------------------------
 ## Prerequisites
 documentation links are provided to dawnload and install the requirements
-1) Node.js 
+1) Node.js:
    NodeJS is an open-source and cross-platform runtime environment built on Chrome’s V8 JavaScript engine for executing JavaScript code outside of a browser.
    Dawnload and install: https://nodejs.org/en/download/package-manager 
 
-2) Express 
+2) Express: 
    Express JS is a small framework that works on top of Node web server functionality to simplify its APIs and add helpful new features. It makes it easier to organize your  application’s functionality with middleware and routing. It adds helpful utilities to Node HTTP objects and facilitates the rendering of dynamic HTTP objects.
    Reffer the document : https://expressjs.com/en/starter/installing.html
 
-3) MongoDB
+3) MongoDB:
    MongoDB is a document-oriented NoSQL database designed for storing, querying, and managing large volumes of data. Unlike traditional relational databases that use tables and rows, MongoDB uses JSON-like documents with flexible schemas, making it easier to handle diverse data types and structures
    Dawnload and install: https://nodejs.org/en/download/package-manager 
 
-4) IDE
+4) IDE:
    IDE is software that combines commonly used developer tools into a compact GUI application.
    you can use any IDE like VSCode AndroidStudio, Eclipse etc.
    VSCode Dawnload and install: https://code.visualstudio.com/Download
